@@ -36,7 +36,7 @@ contract support_contract {
     }
 }
 
-contract ERC721Airdrop is support_contract {
+contract ERC1155Airdrop is support_contract {
     uint256 public time_of_airdrop;
     uint256 public early_investors;
     uint256 public price_of_token;
